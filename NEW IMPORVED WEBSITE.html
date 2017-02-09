@@ -1,0 +1,97 @@
+<html class="background-color">
+
+  <a href="http://theshadowgamer.weebly.com/superfighters.html" onclick="return banner()"> 
+	<header>
+	  <link type="text/css" rel="stylesheet" href="main.css" />
+ 	  <title> Beginning </title>
+ 	  <h1 style="color: white;"> <center> The beginning of your mind's mind </center> </h1>
+ 	  <nav>
+ 	  	<ul id="Navmenu">
+
+ 	  		<li class="navitem"> <a class="home1"href="NEW IMPORVED WEBSITE.html"> Home </a> </li>
+
+ 	  		<li class="navitem"> <a class="game1" href="Page No.html"> Games </a> </li>
+
+ 	  		<li class="navitem"> <a class="video1" href="Page No.html"> Videos </a> </li>
+ 	  	</ul>
+ 	  </nav>
+ 	  <script>
+ 	  	function banner(){ 
+		var text = confirm("Do you want to see my favorite website?"); 
+		return text; 
+		}
+		function answer(){ 
+			var radio = document.getElementsByName("trivia"); 
+			var selection = false; 
+			var message = ""; 
+
+			for( var i = 0; i < radio.length; i++) { 
+				if(radio[i].value == "kcr" && radio[i].checked == true) { 
+					selection = true; 
+				} 
+			} 
+			if(selection == true) {
+				message = message + "<b><p style='color:green'>Way to go!</p></b>"; 
+			} else { 
+				message = message + "<b><p style='color:red'>Try again my friend.</p></b>"; 
+			}
+				document.getElementById("response").innerHTML = message;
+			}
+ 	  </script>
+	</header>
+  </a>
+
+	<body>
+			 	<center> A Site that is going to start something <br/> Something in you mind something 
+			 	<i> Mind boggling </i> <br/> </center>
+
+		<audio width="1000" height="1000" control autoplay>
+			<source src="http://www.w3schools.com/tags/horse.mp3" type="audio/mepeg">
+		</audio> <!--> I don't know if this works </!-->
+
+			<p>
+				It Will test... <img src="https://lh3.googleusercontent.com/-qRmDvvvSw70/V1JQ54e1lyI/AAAAAAAAAXs/INTs7fIUgug9O8UmuKeeUy9xJgE4TnkGw/w426-h409/Potato.png" align="right"/>
+			 <div class="list">
+			   <ul>
+				 <li> Your <b> Mind </b> </li>
+
+				 <li> Your <i> knowledge </i> </li> 
+
+				 <li> And will allow you...<br> <u> To be something you didn't think you were</u> </br> </li>
+			   </ul>
+			 </div>
+			</p>
+
+
+
+			   <center> Here is a taste of  bit a nonsense from a good youtuber <iframe width="560" height="315" src="https://www.youtube.com/embed/PXA3W3iB0GY" frameborder="0" allowfullscreen> </iframe> </center>
+
+				   <hr>
+
+			   <center> Logan Pettit <a href="http://theshadowgamer.weebly.com/superfighters.html"> My favorite website </a> </center>
+
+			<div class="Trivia1">
+					<center> <b> <h2 style="color:gray;"> The QUIZ of all QUIZES </h2> </b> </center>
+						<p> What word rhymes with turple tomato </p>
+				<form>
+					<div id=""triviafun> </div>
+					<input type="radio" name="trivia" value="Pp"> Purple Potato <br>
+
+					<input type="radio" name="trivia" value="yy"> yurptle yotabro <br>
+
+					<input type="radio" name="trivia" value="kcr"> This is the answer <br>
+
+					<input type="radio" name="trivia" value="witq"> What is this quiz<br>
+
+					<input type="submit" id="submit" value="Summit Answers here" onclick="answer()">
+				</form>
+					It Really Means it When you Win Big...<br>Just not way you'll expect.
+			</div>
+
+						</br>
+						</br>
+			<footer> <center> <span class="foot">This website was created by Logan Pettit </br> (pictures are linked to there cordinating copyright sites.) </span> </center> </footer>
+	</body>
+
+
+</html>
